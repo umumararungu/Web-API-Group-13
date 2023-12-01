@@ -9,4 +9,10 @@ headers = {
 
 response = requests.get(url, headers=headers)
 
-print(response.json())
+# print(response.json())
+
+todo_list = []
+
+for x in response:
+    todo_list.append("\t {}".format(x["text"]))
+    print(todo_list)
