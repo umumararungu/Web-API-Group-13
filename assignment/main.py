@@ -1,15 +1,10 @@
-#!/usr/bin/python3
-"""
-searching movie from api source
-"""
-
 import requests
 
-url = "https://unogsng.p.rapidapi.com/genres"
+url = "https://moviesdatabase.p.rapidapi.com/titles/x/upcoming"
 
 headers = {
-	"X-RapidAPI-Key": "22dfb032bcmshd468812fcf0f1d1p145ebfjsna08d82b4d26f",
-	"X-RapidAPI-Host": "unogsng.p.rapidapi.com"
+	"X-RapidAPI-Key": "e1a6c5dc00msh6edef510fc58b16p1a9b74jsnb0fa182d337c",
+	"X-RapidAPI-Host": "moviesdatabase.p.rapidapi.com"
 }
 
 response = requests.get(url, headers=headers)
