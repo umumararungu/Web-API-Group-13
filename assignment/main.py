@@ -1,5 +1,6 @@
 import requests
 from itertools import islice
+import main
 print('\t\t\t\t ALU Free Movie Hub \n')
 print('\t\t\t\t---------------') 
 print('''
@@ -45,3 +46,10 @@ elif search ==2:
     print('\n\n Thank you !!!! \n')
 else:
     print('Select valid number between [1,2]')
+
+last = input('back or exit : ')
+
+if last == 'back':
+    print(open(main, 'r'))
+else:
+    exit()

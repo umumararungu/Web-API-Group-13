@@ -1,5 +1,5 @@
 import requests
-
+import main
 url = "https://netflix99.p.rapidapi.com/v1/title/similar"
 
 querystring = {"id":"NjVlQWdxclFOOWJralRZL25mK01vbkFyWFVIbXlhQUZleUxzTE05Y2VzeERQWER6MXQ3K0luWVdBRUdab1VVT2owaVFTQ0pJMS90ZGEvYy9BVzF0V1F+fg~~"}
@@ -11,4 +11,8 @@ headers = {
 
 response = requests.get(url, headers=headers, params=querystring)
 
-print(response.json())
+# print(response.json())
+
+
+print(open(main, 'r'))
+
