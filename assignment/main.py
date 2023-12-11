@@ -34,14 +34,14 @@ if search == 1:
     print('\n\t\t\t\t Upcoming Movies \n')
     print('\t\t\t\t--------------------') 
     for i in movie:
-        print(i.get('titleText',{}).get('text'))
+        print('-- ' + i.get('titleText',{}).get('text'))
     print('\n\n Thank you !!!! \n')
 
 elif search ==2:
     print('\n\t\t\t\t Popular Movies \n')
     print('\t\t\t\t--------------------') 
     for item in top_10:
-        print(item.get('title'))
+        print('-- ' + item.get('title'))
     print('\n\n Thank you !!!! \n')
 else:
     print('Select valid number between [1,2]')
