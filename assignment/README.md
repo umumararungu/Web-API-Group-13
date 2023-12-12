@@ -16,7 +16,7 @@ Movie Categories:
 The program allows users to choose between two movie categories: upcoming movies and popular movies.
 API Integration:
 Utilizes two movie-related APIs from RapidAPI to fetch data:
-moviesdatabase API for upcoming movies.
+movies database API for upcoming movies.
 moviesminidatabase API for popular movies.
 
 Execution
