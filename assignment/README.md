@@ -11,7 +11,7 @@ Displays the titles of the top 10 popular movies.
 User Interaction:
 Allows the user to choose between upcoming and popular movies.
 Provides an option to exit the program
-Functionality
+Functionalities
 Movie Categories:
 The program allows users to choose between two movie categories: upcoming movies and popular movies.
 API Integration:
