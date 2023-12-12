@@ -19,13 +19,13 @@ Utilizes two movie-related APIs from RapidAPI to fetch data:
 movies database API for upcoming movies.
 moviesminidatabase API for popular movies.
 
-Execution
+Execution: 
 The script is executed from the command line, and the user interacts with the program through the console.
-Potential Enhancements
+Potential Enhancements: 
 The prototype could be extended by adding more features, such as additional movie categories, more detailed movie information, or a graphical user interface (GUI) for a more user-friendly experience.
-Code Organization
+Code Organization: 
 The code is well-organized and follows PEP 8 style conventions, making it clear and readable.
-Limitations
+Limitations: 
 The current prototype lacks comprehensive error handling and validation. Future iterations might consider more robust error handling, input validation, and edge case handling.
 This prototype serves as a foundation for a simple movie information application, and further development can build upon this to create a more feature-rich and polished program.
 Collaborators
