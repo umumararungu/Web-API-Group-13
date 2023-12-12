@@ -34,7 +34,7 @@ def get_popular_movies():
 
 def main():
     while True:
-        print('\t\t\t\t ALU Free Movie Hub \n')
+        print('\t\t\t\t ALU Movie Hub \n')
         print('\t\t\t\t---------------')
         print('''
             1. Upcoming
@@ -48,7 +48,7 @@ def main():
         elif search == 2:
             get_popular_movies()
         elif search == 3:
-            print("\n Exiting the ALU Free Movie Hub. Thank you! \n")
+            print("\n Exiting the ALU Movie Hub. Thank you! \n")
             break  # exit the loop and end the program
         else:
             print('Select a valid number between [1, 2, 3]')
